@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-Test Doc
-
-did other stuff locally
-=======
-Test Doc 
-update
->>>>>>> 151a0b1e03251455ce319fa52adb9127662cbf60
-
