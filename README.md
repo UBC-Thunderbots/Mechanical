@@ -34,8 +34,8 @@ If there is no merge conflict:
 
 ## Workflow: Updating your changes to the remote repository:
 
-If you have any new changes, they should show up in your application under "Changed Files" - otherwise, you did something wrong.
-1. Start off with ```committing to main```. Name your change under Summary (e.g. New Dribbler Design).
+If you have any new changes, they should show up in your **GitHub Desktop** application under "Changed Files" - otherwise, you did something wrong.
+1. Start off with ```committing to main```. Name the change you made under Summary _(e.g. New Dribbler Design)_.
 2. After it commits successfully, the button at the top should read ```Push Origin```
-3. Click on it. Do make sure that nobody else is/was working on the same file you did - communicate this clearly before moving forward.
+3. Click on it. Do make sure that **nobody else is/was working on the same file you did - communicate this clearly before moving forward.**
 
