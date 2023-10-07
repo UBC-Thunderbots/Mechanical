@@ -34,5 +34,8 @@ If there is no merge conflict:
 
 ## Workflow: Updating your changes to the remote repository:
 
-im tires.
+If you have any new changes, they should show up in your application under "Changed Files" - otherwise, you did something wrong.
+1. Start off with ```committing to main```. Name your change under Summary (e.g. New Dribbler Design).
+2. After it commits successfully, the button at the top should read ```Push Origin```
+3. Click on it. Do make sure that nobody else is/was working on the same file you did - communicate this clearly before moving forward.
 
