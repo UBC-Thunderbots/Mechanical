@@ -2,8 +2,7 @@
 Our mechanical CAD repository. To get started, please see follow the guide below:
 
 ## Setting Up with GitHub Desktop:
-
-*Using github desktop is the simplest method
+*Using GitHub Desktop is the simplest method. You're welcome to try other options
 
 1. Download [GitHub Desktop](https://desktop.github.com/)
 2. Create an account or login.
@@ -25,8 +24,7 @@ Before you make any changes to the mechanical assembly, it is important that you
 After fetching, you should be notified whether there are any merge conflicts. In other words, whether there have been any changes made to files that you have also modified on your local folder.
 
 If there is a merge conflict:
-1. Give-up.
-
+1. Give-up. :(
 
 If there is no merge conflict:
 1. Click on ```Pull Origin``` and your local folder should automatically be updated to reflect any changes on the remote repository.
