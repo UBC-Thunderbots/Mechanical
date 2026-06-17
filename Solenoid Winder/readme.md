@@ -4,13 +4,23 @@
 ## Overview
 *(Refer to CAD overviews of the winder and director assemblies)*
 
+<img src="sw-overview.svg" width="500" alt="System Overview">
+
+<img src="sw-daoverview.svg" width="500" alt="System Director Assembly Overview">
+
 ## Winding Instructions
 
 ### Wiring and Setup
 Ensure the breadboard, solenoid winder motors, and Arduino Uno are wired as shown in the reference diagrams.
 - Make all I/O connections shown in the table below. 
 - Regarding the breadboard, buttons are LEFT, RIGHT, ENTER, BACK, from left to right.
-- The motor controller board with the larger heatsink must be connected to the chuck motor.
+- The motor controller board with the larger heatsink must be connected to the chuck motor*.
+
+*Stepper motor connected to chuck: pins 1&3 are coil A and 4&6 are coil B. Stepper motor for lead screw: pins 1&4 are coil A and 3&6 are coil B.
+
+<img src="sw-breadboard.png" width="500" alt="Breadboard Schematic">
+
+<img src="sw-breadboard-irl.jpg" width="500" alt="Wire Schematic">
 
 ### I/O Connections Table
 
@@ -29,6 +39,9 @@ Ensure the breadboard, solenoid winder motors, and Arduino Uno are wired as show
 | Lead_MS3 | Digital Pin 11 |
 | +ve breadboard rail | +5V |
 | -ve breadboard rail | GND |
+
+
+<img src="sw-A4988.png" width="500" alt="A4988">
 
 ### Step-by-Step Operation
 
