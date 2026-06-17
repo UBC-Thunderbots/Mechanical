@@ -1,4 +1,4 @@
-markdown_content = """# Solenoid Winding Machine - Standard Operating Procedure (SOP)
+# Solenoid Winding Machine - Standard Operating Procedure (SOP)
 *Last revised: 7th June 2026 by Thomas Frew*
 
 ## Overview
@@ -55,9 +55,3 @@ Ensure the breadboard, solenoid winder motors, and Arduino Uno are wired as show
 - **The motor is going the wrong way:** Swap a set of A/B lines on the breadboard (either 1 or 2, not both).
 - **The chuck is jerking in different directions:** One of the coil lines has likely become unplugged from the breadboard.
 - **The copper crossed over itself:** Turn off power, unplug the motor, unwind, plug back in, and try again.
-"""
-
-with open("Solenoid_Winder_SOP.md", "w", encoding="utf-8") as f:
-    f.write(markdown_content)
-
-print("File generated successfully.")
